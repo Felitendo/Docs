@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Tutorials - Richtig gemacht',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Tutorials im Internet können eine ziemliche Qual sein. Entweder sie sind veraltet
+        oder zugespamt mit Werbung. Mit Felodocs hast du immer übersichtliche up-to-date Tutorials
+        ganz ohne Werbung!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Keine Ahnung was ich schreiben soll',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Lorem ipsum weiter weiß ich ned.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Schmerzen',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Diese Webseite ist mit sehr vielen schlaflosen Nächten und Schmerzen entstanden.
       </>
     ),
   },
