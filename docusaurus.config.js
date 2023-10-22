@@ -63,12 +63,17 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },   
       navbar: {
         title: 'Felo Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-        },
+        }, 
         items: [
           {
             type: 'docSidebar',
