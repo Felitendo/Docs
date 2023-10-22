@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Lorem ipsum weiter weiß ich ned.
+        Lorem ipsum weiter oder so.
       </>
     ),
   },
