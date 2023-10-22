@@ -5,10 +5,10 @@ Yo, willkommen bei Felo Docs. Hier kannst du die Seiten bearbeiten und ein Pull 
 3. Lade dir Node.js [hier](https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi) herunter.
 3. Lade dir Git [hier](https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe) herunter.
 4. Öffne Github Desktop und melde dich mit deinem Github Account an.
-5. Klicke auf "File -> Clone Repository" und Klicke auf "URL". Gebe dort "https://github.com/Felitendo/Docs" ein.
+5. Klicke auf "File -> Clone Repository" und Klicke auf "URL". Gib dort "https://github.com/Felitendo/Docs" ein.
 6. Klicke auf "clone" und warte bis es fertig mit clonen ist.
 7. Klicke auf "Open in VSCode"
-8. Klicke auf "Terminal -> new Terminal" und gebe dort "npm i" ein.
+8. Klicke auf "Terminal -> new Terminal" und gib dort "npm i" ein.
 9. Warte bis alles installiert ist und gib dann "npm i react-player" ein.
 10. Gib dann entweder "npm start" oder "node ./index.js" ein.
 11. Öffne diese Website in deinem Browser: http://localhost:25561
