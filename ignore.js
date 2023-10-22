@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 
 // Führt den Befehl "npm start" im aktuellen Verzeichnis aus
-const child = exec('npm start');
+const child = exec('npm run start -- --host 0.0.0.0');
 
 child.stdout.on('data', (data) => {
   console.log(`stdout: ${data}`);
