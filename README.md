@@ -1,3 +1,14 @@
+Yo, willkommen bei Felo Docs. Hier kannst du die Seiten bearbeiten und ein Pull Request erstellen, damit ich deine Änderungen implementieren kann. Hier ein kleines Tutorial:
+
+1. Lade dir Github Desktop [hier](https://desktop.github.com/) herunter.
+2. Lade dir Visual Studio Code [hier](https://code.visualstudio.com/) herunter.
+3. Lade dir Git [hier](https://git-scm.com/download/) herunter.
+4. Öffne Github Desktop und melde dich mit deinem Github Account an.
+5. Klicke auf "File -> Clone Repository" und Klicke auf "URL". Gebe dort "https://github.com/Felitendo/Docs" ein.
+6. Klicke auf "clone" und warte bis es fertig mit clonen ist.
+7. 
+
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
