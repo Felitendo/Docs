@@ -15,20 +15,20 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Keine Ahnung was ich schreiben soll',
+    title: 'Lorem ipsum',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Lorem ipsum weiter oder so.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </>
     ),
   },
   {
-    title: 'Powered by Schmerzen',
+    title: 'Lorem ipsum',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Diese Webseite ist mit sehr vielen schlaflosen Nächten und Schmerzen entstanden.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </>
     ),
   },
