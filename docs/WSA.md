@@ -1,37 +1,43 @@
 ---
-sidebar_label: 'Android Apps auf dem PC installieren'
+sidebar_label: 'Anleitung: Android Apps auf deinem Computer installieren'
 sidebar_position: 3
 ---
 import ReactPlayer from 'react-player'
 
 
-In diesem Tutorial lernst du, wie du WSA (Windows Subsystem für Android) auf deinem Computer installieren kannst und du somit alle Android Apps auf deinem PC installieren kannst.
+In diesem Tutorial erfährst du, wie du das Windows Subsystem für Android (WSA) auf deinem Computer einrichtest, um Android-Apps auf deinem Computer zu installieren.
 
 :::danger Achtung
 
-Dieses Tutorial funktioniert nur, wenn dein Computer **Windows 11** oder höher als Betriebssystem hat!
+Diese Anleitung funktioniert nur, wenn dein Computer das Betriebssystem **Windows 11** oder eine höhere Version verwendet.
 
 :::
 
-1. Suche auf deinem Windows 11 Computer nach "Systemsteuerung" oder "Control Panel" und öffne es.
+# Schritt 1: VM-Platform aktivieren
 
+1. Öffne die "Systemsteuerung" auf deinem Windows 11 Computer. Dies kannst du durch die 
+   Suche nach "Systemsteuerung" oder "Control Panel" tun.
+   
    ![Control-Panel-Search](https://files.felo.gg/u/NVIDIA_Share_2SX6GkDjjh.png)
 
-   Klicke dann auf "Programme"
+2. Klicke auf "Programme".
 
    ![Control-Panel-Programme](https://files.felo.gg/u/explorer_VUdtDj08kz.png)
 
-   Klicke dann auf "Windows Features aktivieren oder deaktivieren"
+3. Wähle "Windows Features aktivieren oder deaktivieren" aus
 
    ![Control-Panel-activate](https://files.felo.gg/u/explorer_EwnElJI7Cc.png)
 
-   Wähle dann "VM-Plattform" aus
+4. Aktiviere "VM-Plattform".
 
    ![Control-Panel-VM](https://files.felo.gg/u/OptionalFeatures_JDC4lKWLDI.png)
 
-   Klicke dann auf "Ok" und das "VM-Plattform"-Feature sollte installiert werden
+5. Klicke auf "OK", um die Installation des "VM-Plattform"-Features zu starten.
 
-2. **Amazon Appstore**-App im Microsoft Store suchen und danach installieren
+
+# Schritt 2: Amazon Appstore-App installieren
+
+1. Suche im Microsoft Store nach der **Amazon Appstore**-App und installiere sie.
 
    ![Amazon-Bild](https://files.felo.gg/u/ApplicationFrameHost_XJaQWrUZy7.png)
 
@@ -41,23 +47,25 @@ Dieses Tutorial funktioniert nur, wenn dein Computer **Windows 11** oder höher 
 
    ![Amazon-Install3](https://files.felo.gg/u/ApplicationFrameHost_8GIoQhWGin.png)
 
-3. Öffne dann, nachdem du deinen PC neugestartet hast, das Programm "Windows Subsystem für Android"
+# Schritt 3: WSA konfigurieren
+
+1. Öffne dann, nachdem du deinen Computer neugestartet hast, das Programm "Windows Subsystem für Android"
 
    ![WSA-Programm](https://files.felo.gg/u/NVIDIA_Share_8j5uffJ1BV.png)
 
-   Klicke dann links in der Leiste auf "Erweiterte Einstellungen"
+2. Klicke in der Seitenleiste auf "Erweiterte Einstellungen".
 
    ![](https://files.felo.gg/u/ApplicationFrameHost_icTKud7dl2.png)
 
-   Schalte dann den "Entwicklermodus" auf "ein"
+3. Aktiviere den "Entwicklermodus".
 
    ![](https://files.felo.gg/u/ApplicationFrameHost_BPbgSDQPMm.png)
 
-4. Gehe zu "System" zurück
+4. Kehre zu der Einstellung "System" zurück.
 
    ![](https://files.felo.gg/u/ApplicationFrameHost_LXXRs6KOyn.png)
 
-   Klicke bei "Dateien" auf Öffnen
+5.   Klicke bei "Dateien" auf "Öffnen".
 
    ![](https://files.felo.gg/u/ApplicationFrameHost_5AneecaBp7.png)
 
@@ -65,94 +73,98 @@ Dieses Tutorial funktioniert nur, wenn dein Computer **Windows 11** oder höher 
 
    ![](https://files.felo.gg/u/WsaClient_ALrXnMCPQM.png)
 
-   Windows Subsystem für Android wird jetzt gestartet. Das kann einige Minuten dauern. Du wirst warscheinlich eine Aufforderung bekommen, dass Windows Subsystem für Android auf dein Netzwerk zugreifen will. Klicke einfach auf "Zulassen". Falls es nach 10min noch nicht gestartet ist, musst du deinen PC neustarten und es nochmal versuchen.
+   Windows Subsystem für Android wird jetzt gestartet. Dies kann einige Minuten dauern. Du wirst möglicherweise aufgefordert, Windows Subsystem für Android zugriff auf dein Netzwerk zu geben. Klicke einfach auf "Zulassen".
 
-5. Wenn dann die Dateien App sich endlich geöffnet hat, musst du sie *minimieren* **ACHTUNG: Nicht schließen**!
+6. Wenn die Dateien-App geöffnet ist, minimiere sie, aber **schließe sie nicht**!
 
-6. Führe jetzt das Programm "Windows Powershell" **als Administrator** aus!
+
+# Schritt 4: Aurora Store installieren
+
+1. Öffne das Programm "Windows PowerShell" **als Administrator**.
 
    ![](https://files.felo.gg/u/NVIDIA_Share_PjfTG9bOYh.png)
 
-   Gebe darin den folgenden Befehl ein und drücke "ENTER":
+2. Gib den folgenden Befehl ein und drücke "ENTER":
 
    ```md
    iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/corbindavenport/nexus-tools/main/install.ps1'))
    ```
 
-   ![](https://files.felo.gg/u/powershell_kjA7zCnWRs.png)
-
-   Gebe dann "Y" ein und drücke "ENTER"
+3. Bestätige alles mit "Y" und drücke "ENTER".
 
    :::tip Tipp
 
-   Wenn die installation fehlschlägt kannst du [hier](https://github.com/koush/adb.clockworkmod.com/releases/latest/download/UniversalAdbDriverSetup.msi) die Treiber manuell herunterladen! Danach musst du die Datei einfach ausführen und installieren! Wichtig: Starte deinen Computer danach neu!
+   Wenn die Installation fehlschlägt kannst du die Treiber [HIER](https://github.com/koush/adb.clockworkmod.com/releases/latest/download/UniversalAdbDriverSetup.msi) manuell herunterladen und installieren! Starte danach deinen Computer neu!
 
    :::
 
-7. Klicke jetzt [HIER](https://auroraoss.com/AuroraStore/Stable/AuroraStore_4.3.5.apk) um eine alternative für den Google Playstore herunterzuladen!
+4. Klicke [HIER](https://auroraoss.com/AuroraStore/Stable/AuroraStore_4.3.5.apk) um "Aurora Store", eine
+   alternative für den Google Playstore herunterzuladen!
 
-8. Rechtsklicke jetzt das Windows Symbol in deiner Taskleiste und klicke auf "Ausführen"
+5. Klicke mit der rechten Maustaste auf das Windows-Symbol in der Taskleiste und wähle "Ausführen".
 
    ![](https://files.felo.gg/u/explorer_6mPHs6mHTW.png)
 
-   Gebe dann in das Kästchen "downloads" ein und klicke auf "Ok"
+   Gebe "downloads" in das Eingabefeld ein und klicke auf "OK".
 
    ![](https://files.felo.gg/u/explorer_pCjzqqnQVc.png)
 
-9. Jetzt müsste sich dein Download Ordner geöffnet haben. In diesem musst du oben in die Leiste "cmd" eingeben und "ENTER" drücken!
+6. Dein Download-Ordner wird geöffnet. Gebe oben in der Leiste "cmd" ein und drücke "ENTER".
 
    ![](https://files.felo.gg/u/explorer_wZDsxw6ADe.png)
 
-   Jetzt hat sich die "Eingabeaufforderung" geöffnet. In dieser musst du jetzt folgenden Befehl eingeben:
+7. Die Eingabeaufforderung wird geöffnet. Gebe darin den folgenden Befehl ein:
 
    ```md
    adb connect 127.0.0.1:58526
    ```
 
-   Jetzt müsste in der Eingabeaufforderung folgendes stehen: "failed to authenticate to 127.0.0.1:58526". Das ist normal. Du musst jetzt in deiner Taskleiste nach dem Fenster suchen, in dem gefragt wird, ob "ADB-Debugging" zugelassen werden soll. Klicke auf "Von diesem Computer immer zulassen" und dann auf "Zulassen"!
+   Du erhältst wahrscheinlich die Meldung "failed to authenticate to 127.0.0.1:58526", was normal ist. Suche in der Taskleiste nach dem Fenster, in dem nach der Erlaubnis für "ADB-Debugging" gefragt wird. Klicke auf "Von diesem Computer immer zulassen" und dann auf "Zulassen".
 
    ![](https://files.felo.gg/u/BnWL5ijhjy.png)
 
-   Gebe jetzt nochmal den gleichen Befehl in deine Eingabeaufforderung ein:
+8. Gib den gleichen Befehl erneut in die Eingabeaufforderung ein:
 
    ```md
    adb connect 127.0.0.1:58526
    ```
 
-   Jetzt sollte entweder "already connected" oder "successfuly connected" dort stehen.
+   Jetzt sollte entweder "already connected" oder "successfully connected" angezeigt werden.
 
-   Gebe jetzt diesen Befehl ein:
+9. Gib diesen Befehl ein:
 
    ```md
    adb install .\AuroraStore_4.3.5.apk
    ```
 
-   Warte jetzt bis die Nachricht "Success" erscheint!
+   Warte, bis die Meldung "Success" erscheint!
 
-10. Öffne jetzt das Programm "Aurora Store"
+
+# Schritt 5: Aurora Store konfigurieren
+
+1. Öffne die App "Aurora Store".
 
    ![](https://files.felo.gg/u/NVIDIA_Share_pMzlIa6LtU.png)
 
-   Klicke auf "weiter":
+2. Klicke auf "Weiter":
 
    ![](https://files.felo.gg/u/WsaClient_LUmV6cbVWS.png)
 
-   Klicke auf "weiter":
+3. Klicke erneut auf "Weiter":
 
    ![](https://files.felo.gg/u/WsaClient_EfAjxfeGIF.png)
 
-   Klicke auf "weiter":
+4. Klicke erneut auf "Weiter":
 
    ![](https://files.felo.gg/u/WsaClient_iX4vjdYZl0.png)
 
-   Klicke auf "weiter":
+5. Klicke erneut auf "Weiter":
 
    ![](https://files.felo.gg/u/WsaClient_CcX9AEVj97.png)
 
-   Schaue dir das Tutorial Video an indem gezeigt wird, wie man Aurora Store fertig einrichtet und eine App (in dem Fall Spotify) installieren kann:
+6. Sehe dir das Tutorial-Video an, in dem gezeigt wird, wie du den Aurora Store abschließend einrichtest
+   und eine Android App (in diesem Fall Spotify) installierst:
 
    <div className="video__wrapper">
    <ReactPlayer className="video__player" controls height="100%" url="https://files.felo.gg/u/Desktop%202023.10.22%20-%2019.37.03.04.mp4" width="100%" />
    </div>
-
-11. Ende :)
