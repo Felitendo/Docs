@@ -16,4 +16,4 @@ Yo, willkommen bei Felo Docs. Hier kannst du die Seiten bearbeiten und ein Pull 
 13. Speichere deine Änderungen mit STRG + S
 14. Gehe wieder in Github Desktop und klicke auf "Commit to main" oder "Open pull request".
 15. Beschreibe was genau du geändert hast und schicke deine Pull Request ab.
-16. Warte, bis ich deine Pull Request angenommen/abgelehnt habe. Das sollte meistends nicht länger als 3 Tage dauern. Wenn doch, kannst du mir gerne auf Discord schreiben (@felo.gg).
+16. Warte, bis ich deine Pull Request angenommen/abgelehnt habe. Das sollte meistends nicht länger als 3 Tage dauern. Wenn doch, kannst du mir gerne auf Discord schreiben (@felitendo).
