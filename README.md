@@ -1,4 +1,4 @@
-Yo, willkommen bei Felo Docs. Hier kannst du die Seiten bearbeiten und ein Pull Request erstellen, damit ich deine Änderungen implementieren kann. Hier ein kleines Tutorial:
+Willkommen bei Felo Docs. Hier kannst du die Seiten bearbeiten und ein Pull Request erstellen, damit ich deine Änderungen implementieren kann. Hier ein kleines Tutorial:
 
 1. Lade dir Github Desktop [hier](https://central.github.com/deployments/desktop/desktop/latest/win32) herunter.
 2. Lade dir Visual Studio Code [hier](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) herunter.
